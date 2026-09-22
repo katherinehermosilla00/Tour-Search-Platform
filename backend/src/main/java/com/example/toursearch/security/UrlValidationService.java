@@ -66,8 +66,7 @@ public class UrlValidationService {
 
             for (InetAddress address : addresses) {
 
-                // Bloquear direcciones locales,
-                // privadas y link-local
+                // Bloquear direcciones locales,privadas y link-local
                 if (address.isLoopbackAddress()
                         || address.isSiteLocalAddress()
                         || address.isLinkLocalAddress()
@@ -81,7 +80,7 @@ public class UrlValidationService {
 
         } catch (IllegalArgumentException e) {
 
-            // Mantener nuestros bloqueos de seguridad
+            // Mantener nuestros bloqueos de seguridad 
             // con su mensaje original.
             throw e;
 

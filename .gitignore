@@ -1,10 +1,11 @@
-﻿# ==============================
+﻿```gitignore
+# ==============================
 # Java / Maven
 # ==============================
 **/target/
 
 # ==============================
-# Node / React / Vite
+# Node.js / React / Vite
 # ==============================
 **/node_modules/
 **/dist/
@@ -20,14 +21,14 @@
 *.pyd
 
 # ==============================
-# Variables y secretos
+# Variables de entorno y secretos
 # ==============================
 .env
 .env.*
 !.env.example
 
 # ==============================
-# IDE
+# IDE / Editores
 # ==============================
 .vscode/
 .idea/
@@ -40,17 +41,18 @@ Thumbs.db
 .DS_Store
 
 # ==============================
-# Temporales / logs
+# Archivos temporales y logs
 # ==============================
 *.bak
 *.tmp
 *.log
 *~
+errores_extraccion.txt
 
 # ==============================
-# Archivos generados por extracción
+# Datos generados por el extractor
 # ==============================
-errores_extraccion.txt
+extractor_pdf_word/actividades.json
 
 # ==============================
 # Respaldos locales
@@ -58,5 +60,4 @@ errores_extraccion.txt
 scraper_v2/backups/
 *_backup*
 *_respaldo*
-# Datos generados por el extractor
-extractor_pdf_word/actividades.json
+```
