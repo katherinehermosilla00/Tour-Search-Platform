@@ -61,3 +61,6 @@ scraper_v2/backups/
 *_backup*
 *_respaldo*
 ```
+
+# Backups locales de PostgreSQL
+*.dump
