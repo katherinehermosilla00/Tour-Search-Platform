@@ -38,7 +38,7 @@ import AuthLogin from "./AuthLogin.jsx";
 // API
 // ============================================================
 
-const SCRAPER_API = "http://localhost:8000";
+const SCRAPER_API = "https://tour-search-platform-scraper.onrender.com";
 const BACKEND_API = "https://tour-search-platform-backend.onrender.com/api";
 
 
