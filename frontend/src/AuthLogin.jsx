@@ -11,7 +11,7 @@ import {
   Title,
 } from "@mantine/core";
 
-const API_URL = "http://localhost:8080";
+const API_URL = "https://tour-search-platform-backend.onrender.com";
 
 export default function AuthLogin({ onAuthenticated }) {
   const [modo, setModo] = useState("login");
