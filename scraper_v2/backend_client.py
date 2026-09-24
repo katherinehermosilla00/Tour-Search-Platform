@@ -12,7 +12,7 @@ import requests
 from models import TourExtraido
 
 
-BACKEND_URL = "http://localhost:8080"
+BACKEND_URL = "https://tour-search-platform-backend.onrender.com"
 
 
 # ============================================================

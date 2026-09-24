@@ -1,9 +1,9 @@
-﻿from urllib.parse import urljoin
+from urllib.parse import urljoin
 
 import requests
 
 
-BACKEND_URL = "http://localhost:8080"
+BACKEND_URL = "https://tour-search-platform-backend.onrender.com"
 
 REDIRECT_CODES = {
     301,
